@@ -1,5 +1,25 @@
 # Hash functions
 
+## About
+
+- Hash functions are auxiliary functions
+
+## Usage
+
+- signature (sign only hash of file, for example)
+- MACs
+- Key derivation
+- Random generators
+
+## Requirements
+
+- Arbitary input length
+- Fixed, short output length
+- Efficient
+- Preimage resistant = one way function (find any message that hashes to h)
+- Second preimage resistance = weak collision resistance (find message m2 that hashes to hash of the given message m1)
+- Collision resistance
+
 ## How to build hash functions?
 
 - Take a block cypher and create a hash function
