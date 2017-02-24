@@ -22,7 +22,7 @@
   - Stage t=4 Round j=60..79
 - Each round has 5x32bit input A, B, C, D, E
 
-### Merkle dangard construction
+## Merkle damgard construction
 
 ```
 X=(X1,...Xn) | PAdding | Compression function
@@ -80,4 +80,20 @@ X=(X1,...Xn) | PAdding | Compression function
 
 <img src="https://1.bp.blogspot.com/-8JncPkmFYGk/VigEawvs2HI/AAAAAAAAAPk/wbQUGmEkoVk/s1600/sha1.gif" alt="Drawing" width=300px/>
 
+### Round function
 
+Similar as Fristel network:
+
+![](https://www.cs.rit.edu/~ark/fall2013/462/module03/fig3.png)
+
+Round function:
+
+![](https://i.stack.imgur.com/F204w.png)
+
+- t = 1,2,3,4
+- Ft are 4 different functions
+- Kt are round constants
+
+### Message schedule
+
+![](https://image.slidesharecdn.com/fr7vk4pvsbzh6posvax0-signature-a2aefd15529654f3e87e362a46d23579b835dc4f23157856393aba9ec132c113-poli-160425153455/95/hash-function-26-638.jpg?cb=1461598732)
