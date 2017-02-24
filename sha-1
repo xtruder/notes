@@ -13,4 +13,14 @@
   
 ## Overview of SHA-1
 
-- Basic construct: Merkle
+- Uses: Merkle-Dangard consturction
+
+### Merkle dangard construction
+
+```
+X=(X1,...Xn) | PAdding | Compression function
+
+
+```
+
+![https://1.bp.blogspot.com/-8JncPkmFYGk/VigEawvs2HI/AAAAAAAAAPk/wbQUGmEkoVk/s1600/sha1.gif]()
