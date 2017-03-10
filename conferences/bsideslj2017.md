@@ -38,7 +38,16 @@ Symobilic execution with help of fuzzing
 
 ### Tools
 
-- Angr
+- Angr (python)
 - Bitlaze
 - Z3
 - Sage
+
+### Angr
+
+- Symoblic exection
+- Calling functions from python
+- Reverse engineering
+- Function inversion
+- Bypasses anti-debugging techinques
+
