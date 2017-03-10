@@ -94,3 +94,6 @@ It worked on facebook, which is LOL, because he was running this on totaly diffe
 CookieMonstruo has support for both
 
 ### SSO
+
+Works with sso, so we can log in to any other apps, that integrate facebook, twitter, google
+as login methods.
