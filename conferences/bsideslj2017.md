@@ -30,4 +30,4 @@ Granularity In bytes in bits.
 
 **Constraint solving**
 
-Z3 and simliar theorem provers that do SMT solving.
+Z3 and simliar theorem provers that do SMT solving. Anger
