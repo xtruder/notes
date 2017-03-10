@@ -51,3 +51,14 @@ Symobilic execution with help of fuzzing
 - Function inversion
 - Bypasses anti-debugging techinques
 
+## 2. Peculiar SSH
+
+Example usage:
+
+```
+tar xf - ./files | xz | pv | ssh -o "Compression no" box "cat > file.tar.xz"
+```
+
+### Two-Factor Authentication
+
+- Google authenticator
