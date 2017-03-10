@@ -62,3 +62,5 @@ tar xf - ./files | xz | pv | ssh -o "Compression no" box "cat > file.tar.xz"
 ### Two-Factor Authentication
 
 - Google authenticator (package in nixos: https://github.com/NixOS/nixpkgs/blob/master/pkgs/os-specific/linux/google-authenticator/default.nix)
+- SSH ProxtJump in new SSH, similar as ProxyCommand
+- Multiple host keys in `/etc/ssh/`
