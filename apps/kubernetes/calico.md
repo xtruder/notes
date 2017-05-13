@@ -69,4 +69,5 @@ spec:
 EOF
 ```
 
-This whitelists DNS traffic for kube-dns.
+This whitelists DNS traffic for kube-dns. Order 400 gives more priorty as
+other rules.
