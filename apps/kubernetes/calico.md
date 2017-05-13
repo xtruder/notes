@@ -1,6 +1,6 @@
 # Calico kubernetes network provider
 
-## Running `calicoctl`
+## Running `calicoctl` as pod
 
 ```
 kubectl apply -f -<<EOF
