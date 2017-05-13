@@ -1,5 +1,7 @@
 # Calico kubernetes network provider
 
+See http://docs.projectcalico.org/v2.0/getting-started/kubernetes/tutorials/advanced-policy
+
 ## Running `calicoctl` as pod
 
 ```
