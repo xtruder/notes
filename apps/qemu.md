@@ -10,6 +10,6 @@ qemu-img convert --image-opts --object secret,id=sec0,file=pass.b64,format=base6
 ### Mount qemu image
 
 ```bash
-sudo qemu-nbd --object secret,id=sec0,file=pass.b64,format=base64 --image-opts --connect=/dev/nbd0 driver=luks,file.driver=file,file.filename=firstorbital.luks,key-secret=sec
 sudo modprobe nbd max_part=8
+sudo qemu-nbd --object secret,id=sec0,file=pass.b64,format=base64 --image-opts --connect=/dev/nbd0 driver=luks,file.driver=file,file.filename=firstorbital.luks,key-secret=sec
 ```
