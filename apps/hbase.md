@@ -11,3 +11,5 @@ Data stored on HDFS
 - Regions
 - Region servers
 - Memstore
+
+[[https://github.com/xtruder/notes/blob/master/hbase.png|alt=octocat]]
