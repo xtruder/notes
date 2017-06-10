@@ -1,4 +1,4 @@
-# Qemu App notes
+# Libvirt App notes
 
 ## Usefull commands
 
@@ -28,3 +28,9 @@ virsh qemu-monitor-command <name> block_resize drive-virtio-disk0 60G --hmp # re
 ```
 
 Now run fdisk in vm, remove old partition, create new bigger one, and run resize2fs.
+
+### Change disk IOPS
+
+```
+virsh blkdeviotune <name> vda --total-iops-sec 1000
+```
