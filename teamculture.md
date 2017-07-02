@@ -4,8 +4,6 @@ Work in progress ....
 
 # Preface
 
-## The story
-
 ## The culture
 
 Let's build team that is close to ideal. And here is where it all starts with team
@@ -33,6 +31,53 @@ Find other team member(s) with similar interesets and possibly similar personali
 and engage these people to do things together. Encourage them go climbing, let them go
 to a party, let them hack 3d printers, let them just chill. This will be best time
 spent and will accelerate your productivity greatly.
+
+## Engineering process
+
+Enginerring process is not just about how engineers deliver a product that would be
+created and work efficiently, but also what they learn, how they share and reuse
+knowledge and how it benefits the future of the whole company. It's much more as
+just delivering MVP, that is usefull for one use case, but does not benefit company
+as a whole.
+
+### Knowledge gap
+
+In company you will usually have engineers with various level of knowledge, some
+will be juniors, middle and senior engineers. Not everyone can deliver and 
+develop any kind of tasks and junior engineers will do simple tasks, while seniors
+will do harder ones. The most important point is that code quality should not
+be affected greatly. This might seem contradictory at first, but knowledge sharing,
+work reviews and comments will make this happen.
+
+#### Knowledge sharing
+
+It's important for engineers to share knowledge with those
+who need to know more. This should be baked into team culture. Engineers can use
+various medium for knowledge sharing, like writing it, having presentations or
+just having tendency to ask around what problem others have. Up to 20% of the
+work should be just dedicated helping others, and it should be a priority right
+after critical tasks. This behaviour should be rewarded and encouraged. It's
+imporant to note, that knowledge sharing should be also as efficient as possible.
+Writing it down or having (possibly recorded) presentations, will shorten the time
+one has to describe same things all over again, and for any given question one can
+just share a pre-written document like this one. It's also usefull to have a
+collection material, like books, links, and other, that you can share with coworkers. 
+
+#### Work review
+
+Every work done should be reviewed by other coworkers that are able to review
+particular work done. Besides sharing the knowledge it's the only way how to
+improve yourself and others. For software engineers code reviews are a standard
+process. Work reviews should be as strict as possible. While it should be
+agreed on, which work should be fixed, it does not ease work review process. 
+Mistakes or bad practices should not be repeated, and work review will help
+with that.
+
+Work reviews should be also done for senior engineers. While it might seem that
+these people know everything, it's usually because of their wide knowledge or
+laziness, that they forget many imporant things. The other benefit of doing
+work reviews from less experienced coworkers is that they will learn new things,
+and ask questions. This process benefits both sides.
 
 ## Transaparency
 
