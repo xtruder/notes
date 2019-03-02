@@ -10,6 +10,12 @@ we can directly use `buildGoPackage`.
 
 For some reason building takes a long time, but produces working brig binary.
 
+Installed brig using nix with created package
+
+```
+nix-env -f https://github.com/NixOS/nixpkgs/archive/cdd8b9411cabb936eab3b1adc826acfca8c65ca6.tar.gz -iA brig
+```
+
 ## 2. Testing brig
 
 - Initialized brig on machine 1 using:
