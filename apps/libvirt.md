@@ -34,3 +34,15 @@ Now run fdisk in vm, remove old partition, create new bigger one, and run resize
 ```
 virsh blkdeviotune <name> vda --total-iops-sec 1000
 ```
+
+### Live migration of vms
+
+To do live migration you need to make sure migration ports in the range 49152-49215 are opened,
+this can be done in nixos using:
+
+```
+networking.firewall.allowedTCPPortRanges = [{ from = 49152; to = 49215; }];
+```
+
+You will also need to copy any backing images (like nixos base image) to same locations on other host
+and define same storage pools.
