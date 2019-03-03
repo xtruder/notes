@@ -35,6 +35,22 @@ Now run fdisk in vm, remove old partition, create new bigger one, and run resize
 virsh blkdeviotune <name> vda --total-iops-sec 1000
 ```
 
+### Listing disks attached to domain
+
+To list disks attached to domain run:
+
+```
+virsh --connect qemu:///system domblklist <domain_name>
+```
+
+### Flattening images
+
+If disk was created from base image, you can flatten it using this command:
+
+```
+virsh --connect qemu:///system blockpull <domain_name> <disk> --wait
+```
+
 ### Live migration of vms
 
 To do live migration you need to make sure migration ports in the range 49152-49215 are opened,
