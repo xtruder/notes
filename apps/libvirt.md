@@ -60,5 +60,11 @@ this can be done in nixos using:
 networking.firewall.allowedTCPPortRanges = [{ from = 49152; to = 49215; }];
 ```
 
-You will also need to copy any backing images (like nixos base image) to same locations on other host
-and define same storage pools.
+You will also need to copy any backing images (like nixos base image) and mounted iso files to same locations on other host
+and define same storage pools. Also change CPU to hypervisor default.
+
+Do the actual migration
+
+```
+virsh migrate --live --persistent --copy-storage-all --undefinesource --compressed --domain <domain_name> --desturi qemu+ssh://<host>/system
+```
