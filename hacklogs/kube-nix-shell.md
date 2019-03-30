@@ -14,7 +14,9 @@ These are the tools we are going to use:
 
 ## Methods of injection
 
-First we need to push admin shell image to docker registry
+First we need to push admin shell image to docker registry. A pod is deployed
+on a server running target pod/container. Based on desired access different
+method is used.
 
 ### Accessing server
 
